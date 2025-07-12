@@ -65,3 +65,5 @@ src/pyvenv.cfg
 # other
 debug/
 
+# MacOS
+.DS_Store

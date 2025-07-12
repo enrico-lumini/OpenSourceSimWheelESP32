@@ -19,7 +19,8 @@
 #include "SimWheelInternals.hpp"
 #include "InternalServices.hpp"
 #include "HID_definitions.hpp"
-// #include <Arduino.h> // For debugging
+
+#include <Arduino.h> // For debugging
 
 // ----------------------------------------------------------------------------
 // USB classes
@@ -85,6 +86,7 @@ void internals::hid::begin(
         hidDevice.addDevice(&simWheelHID, sizeof(hid_descriptor));
         hidDevice.begin();
         USB.begin();
+
         OnConnected::notify();
         internals::hid::reset();
     }

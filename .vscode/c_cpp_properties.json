@@ -4,15 +4,17 @@
             "name": "Arduino",
             "includePath": [
                 "${workspaceRoot}/**",
-                "d:/Documentos/Arduino/libraries/**",
-                "${LOCALAPPDATA}/Arduino15/packages/**"
+                "/Users/enrico/Documents/Arduino/libraries/**",
+                "/Users/enrico/Library/Arduino15/libraries/**",
+                "/Users/enrico/Library/Arduino15/packages/**"
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": false,
                 "path": [
                     "${workspaceRoot}",
-                    "d:/Documentos/Arduino/libraries",
-                    "${LOCALAPPDATA}/Arduino15/packages"
+                    "/Users/enrico/Documents/Arduino/libraries",
+                    "/Users/enrico/Library/Arduino15/libraries",
+                    "/Users/enrico/Library/Arduino15/packages"
                 ]
             },
             "cStandard": "c17",

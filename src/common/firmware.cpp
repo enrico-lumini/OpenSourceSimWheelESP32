@@ -17,6 +17,8 @@
 #include "SimWheelInternals.hpp"
 #include "InternalServices.hpp"
 
+// #include <Arduino.h> // For debugging
+
 #if !CD_CI
 
 #include <exception>
